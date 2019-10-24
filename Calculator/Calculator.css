@@ -1,0 +1,122 @@
+.outline {
+  width: 288px;
+  height: 360px;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: aqua;
+}
+.calculator{
+  width: 248px;
+  height: 310px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.numberBar {
+  width: 226px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: right;
+  background: goldenrod;
+}
+.clearButt {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+  width: 164px;
+  height: 40px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.clearButt:hover {
+  background-color: dodgerblue;
+}
+
+.clearButt:active {
+  background-color: darkblue;
+}
+
+.operation {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.operation:hover {
+  background-color: crimson;
+}
+
+.operation:active {
+  background-color: darkred;
+}
+
+.number {
+  border: 1px solid black;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+}
+.number:hover {
+  background-color: lightgray;
+}
+
+.number:active {
+  background-color: darkgrey;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.middle{
+  float: middle;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
